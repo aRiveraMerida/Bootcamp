@@ -1,0 +1,149 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* PALETTE */
+:root {
+  --background: #1d1107;
+  --primary: #f3f6f9;
+  --secondary: #ebac67;
+}
+
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+@font-face {
+  font-family: "Ring";
+  src: url("./public/fonts/ring.TTF");
+  font-display: block;
+}
+
+/* GLOBAL STYLES */
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--background);
+  color: var(--primary);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Ring", serif;
+  color: var(--secondary);
+  text-transform: lowercase;
+  font-weight: normal;
+}
+
+/* NAVIGATOR */
+nav {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  flex-wrap: wrap;
+  background-image: url("./public/images/navbar.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    height: 13vh;
+    gap: 1rem;
+    flex-direction: column;
+  }
+}
+
+nav > h1 {
+  font-size: 2rem;
+}
+
+nav > ul {
+  display: flex;
+  gap: 2rem;
+}
+
+/* HERO */
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+}
+
+.hero > img {
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    height: 87vh;
+  }
+}
+
+.hero > h2,
+p {
+  width: 80%;
+}
+
+/* GALLERY */
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.gallery > .movies{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery > .movies > .movie{
+
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.gallery > .movies > .movie > figcaption{
+    padding: 0 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+/* TEXT */
+.text{
+    color: grey;
+}
+
+.text--large{
+    font-size: 4rem;
+}
+
+.text--medium{
+    font-size: 2rem;
+}
+
+.text--small{
+    font-size: 1rem;
+}

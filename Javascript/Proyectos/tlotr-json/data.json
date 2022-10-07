@@ -1,0 +1,48 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "date": "2021-12-01",
+      "title": "La Comunidad del Anillo",
+      "description": "En este episodio de la trilogía, el joven y tímido hobbit, Frodo Bolsón, hereda un anillo. Lejos de ser una simple baratija, se trata del Anillo único, un instrumento de poder que permitiría a Sauron, el Señor Oscuro, reinar en la Tierra Media y convertir en esclavos a sus habitantes.",
+      "poster": "https://posters.movieposterdb.com/04_12/2001/0120737/l_166_0120737_158c8914.jpg"
+    },
+    {
+      "id": 2,
+      "date": "2002-12-18",
+      "title": "Las Dos Torres",
+      "description": "Tras internarse en Emyn Muil, Frodo Bolsón y Sam Gamyi se encuentran con la criatura Gollum, que intenta quitarles el Anillo por la fuerza pero, al verse vencido, promete a los hobbits guiarlos hasta Mordor. Tras sacarlos de Emyn Muil y atravesar la Ciénaga de los Muertos, llegan al Morannon, la «Puerta Negra» de Mordor.",
+      "poster": "https://posters.movieposterdb.com/15_11/2002/167261/l_167261_d46acc05.jpg"
+    },
+
+    {
+      "id": 3,
+      "date": "2003-12-17",
+      "title": "El Retorno del Rey",
+      "description": "La historia comienza con un recuerdo de cómo el hobbit Smeágol llegó a poseer el Anillo de Poder, tras matar a su amigo Déagol, quien lo había encontrado en el fondo de un río (donde cayó muchos años antes, como se vio en la primera película, cuando unos orcos asesinaron a Isildur, quien había cortado el dedo a Sauron en el Sitio de Barad-dûr, que concluyó la Guerra de la Última Alianza, y había conservado el Anillo a pesar de las advertencias de Elrond).",
+      "poster": "https://posters.movieposterdb.com/07_12/2003/167260/l_167260_6ffc2af3.jpg"
+    },
+    {
+      "id": 4,
+      "date": "2012-12-12",
+      "title": "Un Viaje Inesperado",
+      "description": "Un anciano hobbit Bilbo Bolsón está punto de cumplir 111 años, y decide escribir para su sobrino Frodo la narración completa sobre el inesperado viaje en el que se embarcó hace sesenta años. Comienza narrando la historia del fabuloso reino enano de Erebor, bajo la Montaña Solitaria, en la que los enanos extraían metales preciosos bajo el reinado de Thrór, el rey bajo la montaña. ",
+      "poster": "https://posters.movieposterdb.com/12_11/2012/903624/l_903624_f5449541.jpg"
+    },
+
+    {
+      "id": 5,
+      "date": "2013-12-13",
+      "title": "La Desolación de Smaug",
+      "description": "La película comienza con un flashback situado 12 meses antes de la trama. Thorin Escudo de Roble, durante un viaje, se aloja en la posada El Poney Pisador de Bree, en la que se reúne casualmente con el mago Gandalf el Gris. Gandalf le advierte que alguien quiere verlo muerto, y evitar que recupere su trono del reino de Erebor. Thorin decide entonces formar una compañía para viajar a la Montaña Solitaria, aunque Gandalf le recomienda que lleve con él un saqueador.",
+      "poster": "https://posters.movieposterdb.com/13_11/2013/1170358/l_1170358_a210aae5.jpg"
+    },
+    {
+      "id": 6,
+      "date": "2014-16-12",
+      "title": "La Batalla de los Cinco Ejercitos",
+      "description": "Bilbo Bolsón y el resto de la compañía de Thorin Escudo de Roble contemplan desde Erebor como Smaug destruye la Ciudad del Lago, en venganza por su intento de matarle en la película anterior. Bardo el Arquero logra escapar de la celda en la que estaba encerrado, recupera la Flecha Negra con la ayuda de su hijo Bain y la usa para matar a Smaug.",
+      "poster": "https://posters.movieposterdb.com/14_12/2014/2310332/l_2310332_027ad573.jpg"
+    }
+  ]
+}
