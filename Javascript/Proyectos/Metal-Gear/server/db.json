@@ -1,0 +1,76 @@
+{
+  "games": [
+    { 
+      "id": 1, 
+      "title": "Metal Gear", 
+      "author": "Hideo Kojima",
+      "date": "1987",
+      "platform": "NES",
+      "cover": "https://i.pinimg.com/originals/f0/30/aa/f030aaa7aaa3b968d8f76bd982e43f32.jpg"
+     },
+     {
+      "id": 2, 
+      "title": "Metal Gear Solid", 
+      "author": "Hideo Kojima",
+      "date": "1997",
+      "platform": "PSX",
+      "cover": "https://m.media-amazon.com/images/I/51IOiivl-AL._AC_.jpg"
+     },
+     {
+      "id": 3, 
+      "title": "Metal Gear Solid", 
+      "author": "Hideo Kojima",
+      "date": "1997",
+      "platform": "PSX",
+      "cover": "https://m.media-amazon.com/images/I/51IOiivl-AL._AC_.jpg"
+     },
+     {
+      "id": 4, 
+      "title": "Metal Gear Solid", 
+      "author": "Hideo Kojima",
+      "date": "1997",
+      "platform": "PSX",
+      "cover": "https://m.media-amazon.com/images/I/51IOiivl-AL._AC_.jpg"
+     },
+     {
+      "id": 5, 
+      "title": "Metal Gear Solid", 
+      "author": "Hideo Kojima",
+      "date": "1997",
+      "platform": "PSX",
+      "cover": "https://m.media-amazon.com/images/I/51IOiivl-AL._AC_.jpg"
+     },
+     {
+      "id": 6, 
+      "title": "Metal Gear Solid", 
+      "author": "Hideo Kojima",
+      "date": "1997",
+      "platform": "PSX",
+      "cover": "https://m.media-amazon.com/images/I/51IOiivl-AL._AC_.jpg"
+     }
+  ],
+  "character": [
+    { 
+      "id": 1, 
+      "name": "Revolver Ocelot", 
+      "status": 0,
+      "image": "",
+      "sentence": ""
+    },
+    { 
+      "id": 2, 
+      "name": "Solid Snake", 
+      "status": 1,
+      "image": "",
+      "sentence": ""
+    },
+    { 
+      "id": 3, 
+      "name": "Psico-Mantis", 
+      "status": 0,
+      "image": "",
+      "sentence": ""
+    }
+  ],
+  "author": { "name": "Hideo Kojima", "image": "" }
+}

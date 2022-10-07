@@ -1,0 +1,82 @@
+body {
+	background-color: #2e446e;
+	font-family: Arial, Sans-serif;
+	font-size: 42px;
+	margin: 0;
+	padding: 16px;
+}
+header {
+	padding: 32px;
+	text-align: center;
+	color: white;
+}
+h1 {
+	font-size: 4rem;
+}
+p {
+	font-size: 1rem;
+}
+
+/*///////////// gallery CSS /////////////*/
+
+.-fx-image-gal {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 960px;
+	justify-content: center;
+}
+.-fx-gal-item {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.-fx-gal-item a {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.-fx-gal-image-thumb {
+  width: 500px;
+  height: 300px;
+}
+
+.-fx-gal-image-thumb img {
+	width: 100%;
+	cursor: pointer;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	transform: scale(1.1);
+	transition: all 0.5s ease;
+}
+
+.-fx-gal-image-thumb:hover img {
+	cursor: pointer;
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	filter: grayscale(0%);
+	transform: scale(1.5);
+	transition: all 0.5s ease;
+}
+@media (min-width: 420px) {
+	.-fx-image-gal {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.-fx-gal-item {
+		width: 50%;
+	}
+}
+@media (min-width: 768px) {
+	.-fx-gal-item {
+		width: 33.33%;
+	}
+}
