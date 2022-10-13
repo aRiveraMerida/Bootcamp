@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "name": "Botella de agua",
+      "price": 2,
+      "id": 1
+    },
+    {
+      "name": "Bocata",
+      "price": 4,
+      "id": 3
+    },
+    {
+      "name": "Bocata",
+      "price": 4,
+      "id": 4
+    },
+    {
+      "name": "Flamenquin",
+      "price": 4,
+      "id": 5
+    },
+    {
+      "name": "Cachopo",
+      "price": 4,
+      "id": 6
+    }
+  ]
+}
