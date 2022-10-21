@@ -21,4 +21,6 @@ export const addHeaderListeners = () => {
     .addEventListener("click", () => changeBackground());
 
   document.querySelector("#logout").addEventListener("click", () => logout());
+
+  changeBackground()
 };

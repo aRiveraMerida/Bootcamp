@@ -15,11 +15,11 @@ const setUser = () => {
 };
 
 const template = () => `
-<form>
+
     ${Label("username", "Username")}
     ${InputText("username")}
     ${Button("loginBtn", "Enter")}
-</form>
+
 `;
 
 const addListeners = () => {
