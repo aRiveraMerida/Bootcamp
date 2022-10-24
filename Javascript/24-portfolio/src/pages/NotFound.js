@@ -1,0 +1,1 @@
+export const template = () => `<h1>NOT FOUND</h1>`
