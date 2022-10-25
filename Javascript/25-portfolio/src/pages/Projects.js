@@ -2,7 +2,7 @@ import { data } from "../data/data";
 const { projects } = data;
 
 export const template = () => `<section class="portfolio">
-<h2>Portfolio</h2>
+<h2>Projects</h2>
 <div class="projects" id="projects"></div>
 </section>`;
 

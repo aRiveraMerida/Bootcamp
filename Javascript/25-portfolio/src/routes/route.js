@@ -1,9 +1,9 @@
 //Pages
 import { template as home } from "../pages/Home";
 import {
-  template as portfolio,
-  listeners as portfolioListeners,
-} from "../pages/Portfolio";
+  template as projects,
+  listeners as projectsListeners,
+} from "../pages/Projects";
 import { template as contact } from "../pages/Contact";
 import { template as notFound } from "../pages/NotFound";
 //Components
@@ -12,10 +12,10 @@ import { listeners as footerListeners } from "../components/Footer";
 //Routes
 export const routes = {
   "/": { title: "Home", render: home },
-  "/portfolio": {
-    title: "Portfolio",
-    render: portfolio,
-    listener: portfolioListeners,
+  "/projects": {
+    title: "Projects",
+    render: projects,
+    listener: projectsListeners,
   },
   "/contact": { title: "Contact", render: contact },
   "/notfound": { title: "Not Found", render: notFound },
@@ -28,7 +28,7 @@ export const router = () => {
     document.querySelector("#app").innerHTML = page.render();
     navbarListeners();
     footerListeners();
-    if (page.title === "Portfolio") page.listener();
+    if (page.title === "Projects") page.listener();
   } else {
     history.replaceState("", "", "/notfound");
     router();
