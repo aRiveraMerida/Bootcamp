@@ -1,8 +1,9 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
-const LoginPage = () => {
+
+export const LoginPage = () => {
   const { login } = useAuth();
   const [userLogin, setUserLogin] = useState("");
 
@@ -11,39 +12,38 @@ const LoginPage = () => {
     setUserLogin({ ...userLogin, [name]: value });
   };
 
-  const handleSubmit = (ev) => {
-    ev.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
     login(userLogin);
   };
 
   return (
     <div>
       <h1>This is the Login Page</h1>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} noValidate>
         <label htmlFor="email">
           <input
             type="email"
             name="email"
             id="email"
             required
-            value={userLogin.email}
+            value={userLogin.name}
             onChange={handleInput}
           />
         </label>
-        <label htmlFor="password">Password</label>
-        <input
-          type="password"
-          name="password"
-          id="password"
-          required
-          value={userLogin.password}
-          onChange={handleInput}
-        />
-        <button type="submit">Login!</button>
+        <label htmlFor="password">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            value={userLogin.name}
+            onChange={handleInput}
+          />
+        </label>
+        <button type="submit">Login In!</button>
       </form>
-      <Link to="/register">Don't you have an account? Sign Up!</Link>
+      <Link to="/register">{"Don't have an account? Sign Up"}</Link>
     </div>
   );
 };
-
-export default LoginPage;
