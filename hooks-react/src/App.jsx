@@ -10,6 +10,9 @@ import MemoPage from './components/MemoPage'
 import UseRefCode from './components/UseRefCode'
 import UseRefSalary from './components/UseRefSalary'
 import UseRefColor from './components/UseRefColor'
+import UseMemoScore from './components/UseMemoScore'
+import UseMemoDate from './components/UseMemoDate'
+import UseCallbackCounter from './components/UseCallbackCounter'
 
 function App() {
 
@@ -33,7 +36,10 @@ function App() {
         {/* <MemoPage title="The Big Lewoski" poster="rota" review="Mi peli prefierida" initialScore='5' users /> */}
         {/* <UseRefCode /> */}
         {/* <UseRefSalary /> */}
-        <UseRefColor />
+        {/* <UseRefColor /> */}
+        {/* <UseMemoScore />
+        <UseMemoDate /> */}
+        <UseCallbackCounter />
       </>
     </div>
   )
