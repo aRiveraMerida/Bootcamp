@@ -6,7 +6,7 @@ const ProfilePage = () => {
   return (
     <BasicPage
       title="Profile Page"
-      description={`Welcome to profile - ${user.email}`}
+      description={`Welcome to profile - ${user.name}`}
     />
   );
 };
