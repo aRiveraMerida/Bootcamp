@@ -1,10 +1,11 @@
 
 import { NavLink, Outlet } from 'react-router-dom';
 import Footer from './components/Footer';
+import MainLayout from './components/ui/layout/MainLayout';
 
 const App = () => {
   return (
-    <>
+    <MainLayout>
       <nav>
         <NavLink to="/" end>
           Home
@@ -15,7 +16,7 @@ const App = () => {
         <Outlet />
       </main>
       <Footer />
-    </>
+    </MainLayout>
   );
 }
 
