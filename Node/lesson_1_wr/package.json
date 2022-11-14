@@ -1,0 +1,13 @@
+{
+  "name": "lesson_1_wr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "write": " node write.js",
+    "read": "node read.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
