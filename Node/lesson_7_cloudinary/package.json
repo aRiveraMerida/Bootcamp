@@ -1,0 +1,24 @@
+{
+  "name": "lesson_7_cloudinary",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "Antonio Rosales <antoniorosalesmartinez90gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cloudinary": "^1.32.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
